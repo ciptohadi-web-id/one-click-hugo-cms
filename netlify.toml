@@ -6,3 +6,21 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
+  
+[[redirects]]
+  from = "https://angry-wilson-7cb707.netlify.com/*"
+  to = "https://casteasoft.com/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "http://angry-wilson-7cb707.netlify.com/*"
+  to = "https://casteasoft.com/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "http://casteasoft.com/*"
+  to = "https://casteasoft.com/:splat"
+  status = 301
+  force = false
